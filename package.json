@@ -2,10 +2,17 @@
   "name": "chai_aurbackend-04-majorproject",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemonsrc/index.js"
   },
   "author": "Rohan Lande",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.0"
+  }
 }
